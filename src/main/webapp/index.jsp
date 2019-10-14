@@ -5,14 +5,16 @@
 <body>
 <h2>Caesar Cipher</h2>
 <form action="Controller">
-	<label>Enter the string
-		<input type="text" name="string"/>
-	</label>
-	<br/>
-	<label>Enter the shift number
-		<input type="text" name="shift"/>
-	</label>
-	<br/>
+	<div>
+		<label><p>Enter the message you want to encrypt</p>
+			<input type="text" name="string"/>
+		</label>
+	</div>
+	<div>
+		<label><p>Enter the shift factor</p>
+			<input type="number" name="shift"/>
+		</label>
+	</div>
 	<input type="submit" value="Submit"/>
 </form>
 </body>
